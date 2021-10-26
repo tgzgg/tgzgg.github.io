@@ -4,6 +4,25 @@
   
   
   <entry>
+    <title>在iPhone/iPad上使用Shadowrocket科学上网</title>
+    <link href="/2021/10/26/%E5%9C%A8iPhone-iPad%E4%B8%8A%E4%BD%BF%E7%94%A8Shadowrocket%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/"/>
+    <url>/2021/10/26/%E5%9C%A8iPhone-iPad%E4%B8%8A%E4%BD%BF%E7%94%A8Shadowrocket%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/</url>
+    
+    <content type="html"><![CDATA[<h2 id="在iPhone-iPad使用-Shadowrocket科学上网"><a href="#在iPhone-iPad使用-Shadowrocket科学上网" class="headerlink" title="在iPhone/iPad使用 Shadowrocket科学上网"></a>在iPhone/iPad使用 Shadowrocket科学上网</h2><hr><span id="more"></span><div class="note note-primary">            <p>安装软件</p>          </div><ul><li>注册国外区的Apple ID（淘宝购买AppleID美元代充值后充值购买）</li><li>使用此ID登录AppStore</li><li>搜索<span class="label label-success">Shadowrocket</span>  或直接<a href="(https://apps.apple.com/us/app/shadowrocket/id932747118)">【点击这里】</a></li></ul><div class="note note-primary">            <p>配置节点</p>          </div><ul><li>安装完成后，点击Logo打开软件</li></ul><p><img src="https://i.loli.net/2021/10/02/xZJEF8AIb3gw4Mk.jpg"></p><ul><li>点击【右上角“➕”号】</li></ul><img src="https://i.loli.net/2021/10/02/7tquR98rSHzEhwB.jpg" width=500px align="center"><ul><li>URL输入自己的订阅链接，备注随便输入，随后点击【完成】即可</li></ul><img src="https://i.loli.net/2021/10/02/xcwX6yMJjd7hVH5.png" width=500px><div class="note note-primary">            <p>补充</p>          </div><ul><li>很多🪜平台都有一键导入Shadowrocket，点击一下链接就好了</li></ul><img src="https://i.loli.net/2021/10/02/EdQIZSMcCXxTGsk.png" width=300px>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>科学上网笔记</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Windows使用Clash科学上网</title>
     <link href="/2021/10/26/Windows%E4%BD%BF%E7%94%A8Clash%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/"/>
     <url>/2021/10/26/Windows%E4%BD%BF%E7%94%A8Clash%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/</url>
@@ -27,7 +46,7 @@
     <link href="/2021/10/26/VPN%E8%BD%AF%E4%BD%93-%E4%B8%8E-%E6%A2%AF%E5%AD%90-%E6%9C%BA%E5%9C%BA-%E7%9A%84%E5%8C%BA%E5%88%AB/"/>
     <url>/2021/10/26/VPN%E8%BD%AF%E4%BD%93-%E4%B8%8E-%E6%A2%AF%E5%AD%90-%E6%9C%BA%E5%9C%BA-%E7%9A%84%E5%8C%BA%E5%88%AB/</url>
     
-    <content type="html"><![CDATA[</br><p>用VPN软件入门就行了，长期使用推荐机场+软体，在使用方面主要有如下区别：</p><table><thead><tr><th>主要区别</th><th>VPN软件</th><th>机场</th></tr></thead><tbody><tr><td>价格</td><td>大部分VPN软件价格要比机场贵</td><td>相对VPN软体来说较为便宜，也可以白嫖免费的</td></tr><tr><td>通道</td><td>软件官方提供的通道</td><td>可以自由选择通道</td></tr><tr><td>多端使用</td><td>大部分VPN软件只能移动端使用</td><td>可以电脑、手机、平板 等端一起使用</td></tr><tr><td>其他</td><td>软件与通道绑定</td><td>软件与通道分离，更加灵活。除ios端软件需要付费以外，其他端都有免费软件</td></tr><tr><td></td><td></td><td>可以找原生机场购买原生节点</td></tr></tbody></table><hr><h3 id="科学上网教程"><a href="#科学上网教程" class="headerlink" title="科学上网教程"></a>科学上网教程</h3><ul><li>电脑端（Windows &amp;&amp; Macbook）使用Clash科学上网</li></ul><p>SS/SSR/V2Ray/Trojan 代理翻墙客户端软件下载 ↓</p><p>* <a href="https://congcong0806.github.io/2018/04/20/SS/#client">https://congcong0806.github.io/2018/04/20/SS/#client</a></p><p>Telegram 客户端 Proxy 代理设置↓</p><p>* <a href="https://telegra.ph/Telegram-Proxy-02-15">https://telegra.ph/Telegram-Proxy-02-15</a></p><p>买节点, 找机场, 机场介绍 ↓</p><p><a href="https://t.me/yxbjx/1490067">https://t.me/yxbjx/1490067</a></p>]]></content>
+    <content type="html"><![CDATA[</br><p>用VPN软件入门就行了，长期使用推荐机场+软体，在使用方面主要有如下区别：</p><table><thead><tr><th>主要区别</th><th>VPN软件</th><th>机场</th></tr></thead><tbody><tr><td>价格</td><td>大部分VPN软件价格要比机场贵</td><td>相对VPN软体来说较为便宜，也可以白嫖免费的</td></tr><tr><td>通道</td><td>软件官方提供的通道</td><td>可以自由选择通道</td></tr><tr><td>多端使用</td><td>大部分VPN软件只能移动端使用</td><td>可以电脑、手机、平板 等端一起使用</td></tr><tr><td>其他</td><td>软件与通道绑定</td><td>软件与通道分离，更加灵活。除ios端软件需要付费以外，其他端都有免费软件</td></tr><tr><td></td><td></td><td>可以找原生机场购买原生节点</td></tr></tbody></table><hr><h3 id="科学上网教程"><a href="#科学上网教程" class="headerlink" title="科学上网教程"></a>科学上网教程</h3><ul><li><a href="https://tgzgg.github.io/2021/10/26/Windows%E4%BD%BF%E7%94%A8Clash%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/">电脑端（Windows &amp;&amp; Macbook）使用Clash科学上网</a></li></ul><p>SS/SSR/V2Ray/Trojan 代理翻墙客户端软件下载 ↓</p><p>* <a href="https://congcong0806.github.io/2018/04/20/SS/#client">https://congcong0806.github.io/2018/04/20/SS/#client</a></p><p>Telegram 客户端 Proxy 代理设置↓</p><p>* <a href="https://telegra.ph/Telegram-Proxy-02-15">https://telegra.ph/Telegram-Proxy-02-15</a></p><p>买节点, 找机场, 机场介绍 ↓</p><p><a href="https://t.me/yxbjx/1490067">https://t.me/yxbjx/1490067</a></p>]]></content>
     
     
     
