@@ -4,11 +4,43 @@
   
   
   <entry>
+    <title>Telegram设置代理</title>
+    <link href="/2021/10/27/Telegram%E8%AE%BE%E7%BD%AE%E4%BB%A3%E7%90%86/"/>
+    <url>/2021/10/27/Telegram%E8%AE%BE%E7%BD%AE%E4%BB%A3%E7%90%86/</url>
+    
+    <content type="html"><![CDATA[<p><strong>1. Telegram Desktop 客户端</strong></p><p>Telegram Desktop 默认并没有勾选”使用系统代理”, 所以很多人觉得需要开全局才能用,  其实不然, 可以手动勾选”使用系统代理”或使用自定义代理.</p><p><strong>步骤:</strong></p><p>Telegram Desktop 客户端→左上角三短线→设置→高级→网络和代理→代理类型→勾选”使用系统代理”或”使用自定义代理”</p><p>使用自定义代理添加方法: 添加代理→SOCKS5/HTTP→服务器: 127.0.0.1, 端口: 端口需查看你的代理软件(SS/SSR/Clash for Windows/V2RayN…), 不需要填写用户名和密码.</p><p>代理软件查看本地端口的方法:</p><p>​    <em>Clash for Windows: 主界面→General→Port(默认是: 7890)</em></p><p>​    <em>Clash.NET: 主界面→右侧→混合端口(Mixe-Port)</em></p><p>​    <em>SS/SSD→右键状态栏SS/SSD图标→服务器→编辑服务器→本地端口(默认是: 1080)</em></p><p>​    <em>SSR→右键状态栏SSR图标→选项设置→本地端口(默认是: 1080)</em></p><p>​    <em>V2RayN: 主界面→左下角→SOCKS5(或者参数设置→本地监听端口)(默认是: 10808)</em></p><p>​    <em>Trojan-Qt5: 打开Trojan-Qt5主界面→双击一个节点→本地端口(默认是1080)</em></p><p>​    <em>Netch: 打开Netch主界面→设置→本地端口SOCKS5(默认是2801)</em></p><p>有可能你或你用的规则修改了代理软件的本地SOCKS5/HTTP端口, 具体以你的代理客户端为准.<strong>不能乱设置乱猜测, 乱设置可能导致 Telegram Desktop 连不上网络.</strong></p><blockquote><p>备注: Windows, macOS, Linux 系统的电脑都可以使用  Telegram Desktop 版本客户端.(macOS 上 Mac App Store 中的”Telegram Desktop”已更名为”Telegram Lite” )</p></blockquote><p><strong>2. Telegram macOS 客户端</strong></p><p>Telegram macOS 客户端不遵从系统代理, 所以需要设置自定义代理, 也可以用Surge/ClashX Pro 开启”增强模式”</p><p>(Surge/ClashX Pro 的”增强模式”就是针对这类不遵从系统代理的软件做的功能)</p><p><strong>自定义代理设置步骤:</strong> </p><p>Telegram macOS 客户端→设置→数据→使用代理→添加代理→SOCKS5/HTTP→服务器: 127.0.0.1, 端口: 端口需查看你的代理软件(Surge/ClashX/ShadowsocksX…), 不需要填写用户名和密码.</p><p>代理软件查看本地端口的方法:</p><p>​    <em>Surge→点击状态栏Surge图标→显示主界面→SOCKS5(默认是: 6153)</em></p><p>​    <em>Clash for Windows: 主界面→General→Port(默认是: 7890)</em></p><p>​    <em>ClashX→点击状态栏</em>ClashX图标→帮助→端口<em>→Socks Port(默认是: 7891)</em></p><p>​    <em>ShadowsocksX: 点击状态栏ShadowsocksX</em>图标<em>→高级设置→本地Socks5监听端口(默认是: 1086)</em></p><p>​    <em>V2RayX: 点击状态栏V2RayX图标→Configure→Local Socks5 Port(默认是: 1081)</em></p><p>​    <em>V2rayU: 点击状态栏V2rayU图标→偏好设置→Advance→本机 Sock 监听端口(默认是: 1080)</em></p><p><strong>设置完成保存后, 记得重启 Telegram macOS 客户端! 记得重启! 记得重启!</strong></p><p>有可能你或你用的规则修改了代理软件的本地SOCKS5/HTTP端口, 具体以你的代理客户端为准.<strong>不能乱设置乱猜测, 乱设置可能导致 Telegram macOS 连不上网络.</strong></p><p><strong>3. Telegram iOS/Android 客户端</strong></p><p>iOS/Android 设备上开启代理软件即可, 不需要单独在 Telegram 中设置代理.</p><p>Telegram iOS 端是IP直连访问服务器的, 所以需要代理软件做单独的规则处理才行; iOS上有些代理软件并没有针对性的对此做处理, 所以即使开启了这类代理软件, Telegram iOS 也会提示无网络链接, 比如”Wingy”。</p><p><strong>4. 其他</strong></p><p>也可以自建SOCKS5/HTTP/MTProto代理, 只用于Telegram 上使用, 网络也有很多公开的SOCKS5/HTTP/MTProto代理, 个人不建议使用这种方式, 依然建议用代理软件。</p><p>更不要使用某些内置代理的 Telegram 第三方客户端软件, 存在安全隐患.</p><p>Telegram中文｜排名群组：<a href="https://t.me/tgzgg">https://t.me/tgzgg</a></p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>Telegram</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>如何换绑手机号</title>
+    <link href="/2021/10/26/%E5%A6%82%E4%BD%95%E6%8D%A2%E7%BB%91%E6%89%8B%E6%9C%BA%E5%8F%B7/"/>
+    <url>/2021/10/26/%E5%A6%82%E4%BD%95%E6%8D%A2%E7%BB%91%E6%89%8B%E6%9C%BA%E5%8F%B7/</url>
+    
+    <content type="html"><![CDATA[<p>点击 「 设置-头像-更改手机号-下一步 」随后输入新的手机号，一直下一步。输入自己新的手机号</p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>合作推广</title>
     <link href="/2021/10/26/%E5%B8%AE%E6%88%91%E6%8E%A8%E5%B9%BF/"/>
     <url>/2021/10/26/%E5%B8%AE%E6%88%91%E6%8E%A8%E5%B9%BF/</url>
     
-    <content type="html"><![CDATA[<p>如果您想要帮我推广群组和网页，请<a href="https://t.me/tggzg">加入群组</a>后私聊群主，合作推广可以获得以下权限：</p><p>1、在我的群组、频道中为你发送广告</p><p>2、在【排行榜】网页中置顶（置顶时长参照推广时期您的 群组/频道 人数）：</p><pre><code>- 千人+ ：置顶两周- 万人+ ：置顶一个月- 五万+ ：置顶三个月</code></pre><ul><li>十万+ ：置顶6个月+</li></ul><p>3、合作推广需要您将机器人拉入您的群组，并帮助我们在您的平台发布我的平台信息。</p><hr><p>十分感觉您的阅读，期待您的联系。</p>]]></content>
+    <content type="html"><![CDATA[<p>如果您想要帮我推广群组和网页，请<a href="https://t.me/tggzg">加入群组</a>后私聊群主，合作推广可以获得以下权限：</p><p>1、在我的群组、频道中为你发送广告</p><p>2、在【排行榜】网页中置顶（置顶时长参照推广时期您的 群组/频道 人数）：</p><ul><li><p>千人+ ：置顶两周</p></li><li><p>万人+ ：置顶一个月</p></li><li><p>五万+ ：置顶3个月</p></li><li><p>10万+ ：双群 置顶6个月+</p></li><li><p>20万+ ：双群置顶（单群永久置顶，单群置顶6个月+）</p><p><font color=FF0000>以</font><font color=FF0033>上</font><font color=FF0066>所</font><font color=FF0099>有</font><font color=FF00CC>群</font><font color = FF00FF>组</font><font color=FF3300> / </font><font color=FF3333>频</font><font color=FF3366>道</font><font color=CC0033>均</font><font color=CC0066>采</font><font color=CC0099>用</font><font color=CC00CC>「</font><font color=CC00FF>8</font><font color=CC3300>舍</font><font color=CC3333>9</font><font color=CC3366>」</font><font color=CC3399>的</font><font color=CC33CC>计</font><font color=CC33FF>算</font><font color=CC6600>方</font><font color=CC6633>式</font><font color=CC6666>，</font><font color=CC6699>即</font><font color=CC66CC>7</font><font color=FF33FF>9</font><font color=FF3399>9</font><font color=CC9933>9</font><font color=CC9966>人</font><font color=CC9999>算</font><font color=CC99CC>作</font><font color=CC99FF>千</font><font color=FF0000>人</font><font color=FF0033>群</font><font color=FF0066>组</font><font color=FF0099>8</font><font color=FF00CC>0</font><font color=FF00FF>0</font><font color=FF3300>0</font><font color=FF3333>人</font><font color=FF3366>算</font><font color=FF3399>作</font><font color=FF33CC>万</font><font color=FF33FF>人</font><font color=FF6600>群</font><font color=FF6633>组</font><font color=FF6666>以</font><font color=FF6699>此</font><font color=FF66CC>类</font><font color=FF66FF>推</font><font color=FF99FF>。</font></p></li></ul><p>3、合作推广需要您将机器人拉入您的群组，以出发关键词「 群排名 」，相关问题请直接联系群主即可。</p><hr><p>十分感觉您的阅读，期待您的联系。</p>]]></content>
     
     
     
@@ -27,7 +59,7 @@
     <link href="/2021/10/26/%E5%A6%82%E4%BD%95%E5%B0%86%E7%BE%A4%E7%BB%84-%E9%A2%91%E9%81%93%E6%B7%BB%E5%8A%A0%E5%88%B0%E6%8E%92%E8%A1%8C%E6%A6%9C/"/>
     <url>/2021/10/26/%E5%A6%82%E4%BD%95%E5%B0%86%E7%BE%A4%E7%BB%84-%E9%A2%91%E9%81%93%E6%B7%BB%E5%8A%A0%E5%88%B0%E6%8E%92%E8%A1%8C%E6%A6%9C/</url>
     
-    <content type="html"><![CDATA[<h3 id="添加到排行榜"><a href="#添加到排行榜" class="headerlink" title="添加到排行榜"></a>添加到排行榜</h3><hr><br><h4 id="添加群组"><a href="#添加群组" class="headerlink" title="添加群组"></a>添加群组</h4><div class="note note-success">            <p>将本机器人添加到群组后，发送「 /add2list 」命令，待看到「 添加成功 」后则添加成功。</p><p>补充：将机器人设置为「 管理员 」可以开启「 排行榜 」关键词，当群内用户发送 “排行榜” 后，机器人会自动回复网址。</p>          </div><br><h4 id="添加公开频道"><a href="#添加公开频道" class="headerlink" title="添加公开频道"></a>添加公开频道</h4><div class="note note-success">            <p>直接对机器人发送「 /add2list @username」（ username是您群组的ID ）待看到「 添加成功 」后则添加成功。</p>          </div><br><h4 id="添加私密频道"><a href="#添加私密频道" class="headerlink" title="添加私密频道"></a>添加私密频道</h4><div class="note note-success">            <p>私密频道不支持添加到排名</p>          </div><br><h4 id="更新您的平台信息"><a href="#更新您的平台信息" class="headerlink" title="更新您的平台信息"></a>更新您的平台信息</h4><div class="note note-success">            <p>机器人不会自动更新您的频道信息，当您频道的 人数、头像、名称、简介、Username 等信息发生变化后，您可以在群组内发送「 /update 」或 「 /update @username 」以更新您的群组或频道在排行榜中的信息。</p>          </div><br><br><br><h3 id="相关问题"><a href="#相关问题" class="headerlink" title="相关问题"></a>相关问题</h3><h4 id="被拉黑了？"><a href="#被拉黑了？" class="headerlink" title="被拉黑了？"></a>被拉黑了？</h4><div class="note note-primary">            <p><a href="https://t.me/tgzgg">点击链接</a>进入群组后，发送「 解除排行榜拉黑 」并按照相关提示进行相关操作后，等待管理员联系您。</p>          </div><h4 id="我的「-私密群组-」无法添加到排行榜"><a href="#我的「-私密群组-」无法添加到排行榜" class="headerlink" title="我的「 私密群组 」无法添加到排行榜"></a>我的「 私密群组 」无法添加到排行榜</h4><div class="note note-primary">            <p>方法一：将本机器人添加到您的群组后，设置为管理员，并给予「 添加成员 」权限。</p><p>方法二：将您的群组设置为「 公开群组 」</p>          </div>]]></content>
+    <content type="html"><![CDATA[<h3 id="添加到排行榜"><a href="#添加到排行榜" class="headerlink" title="添加到排行榜"></a>添加到排行榜</h3><hr><p>要添加您的群组到本页，您需要先找到@listrankbot，您可以加入本群后发送关键词「 排行榜 」找到该机器人，找到机器人后您再进行以下操作即可。</p><br><h4 id="添加群组"><a href="#添加群组" class="headerlink" title="添加群组"></a>添加群组</h4><div class="note note-success">            <p>将本机器人添加到群组后，发送「 /add2list 」命令，待看到「 添加成功 」后则添加成功。</p><p>补充：将机器人设置为「 管理员 」可以开启「 排行榜 」关键词，当群内用户发送 “排行榜” 后，机器人会自动回复网址。</p>          </div><br><h4 id="添加公开频道"><a href="#添加公开频道" class="headerlink" title="添加公开频道"></a>添加公开频道</h4><div class="note note-success">            <p>直接对机器人发送「 /add2list @username」（ username是您群组的ID ）待看到「 添加成功 」后则添加成功。</p>          </div><br><h4 id="添加私密频道"><a href="#添加私密频道" class="headerlink" title="添加私密频道"></a>添加私密频道</h4><div class="note note-success">            <p>私密频道不支持添加到排名</p>          </div><br><h4 id="更新您的平台信息"><a href="#更新您的平台信息" class="headerlink" title="更新您的平台信息"></a>更新您的平台信息</h4><div class="note note-success">            <p>机器人不会自动更新您的频道信息，当您频道的 人数、头像、名称、简介、Username 等信息发生变化后，您可以在群组内发送「 /update 」或 「 /update @username 」以更新您的群组或频道在排行榜中的信息。</p>          </div><br><br><br><h3 id="相关问题"><a href="#相关问题" class="headerlink" title="相关问题"></a>相关问题</h3><h4 id="被拉黑了？"><a href="#被拉黑了？" class="headerlink" title="被拉黑了？"></a>被拉黑了？</h4><div class="note note-primary">            <p><a href="https://t.me/tgzgg">点击链接</a>进入群组后，发送「 解除排行榜拉黑 」并按照相关提示进行相关操作后，等待管理员联系您。</p>          </div><h4 id="我的「-私密群组-」无法添加到排行榜"><a href="#我的「-私密群组-」无法添加到排行榜" class="headerlink" title="我的「 私密群组 」无法添加到排行榜"></a>我的「 私密群组 」无法添加到排行榜</h4><div class="note note-primary">            <p>方法一：将本机器人添加到您的群组后，设置为管理员，并给予「 添加成员 」权限。</p><p>方法二：将您的群组设置为「 公开群组 」</p>          </div>]]></content>
     
     
     
